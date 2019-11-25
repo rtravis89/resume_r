@@ -1,0 +1,12 @@
+@article{ml_2019,
+	title = {Machine learning versus traditional risk stratification methods in acute coronary syndrome: a pooled randomized clinical trial analysis},
+	issn = {0929-5305},
+	url = {https://doi.org/10.1007/s11239-019-01940-8},
+	doi = {10.1007/s11239-019-01940-8},
+	journal = {Journal of Thrombosis and Thrombolysis},
+	author = {Gibson, W.J., Nafee, T., Travis, R. et al.},
+	month = sep,
+	year = {2019},
+	pages = {1-9}
+}
+
