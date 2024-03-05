@@ -2,56 +2,45 @@
 name: Ryan
 surname: Travis
 position: "Data Scientist"
-address: "Watertown, MA 02472"
+address: "Alexandria, VA 22314"
 phone: 304 282 8684
 www: ryantravis.netlify.com/about/
 email: "rtravis89@gmail.com"
-twitter: fledglingstat
 github: rtravis89
 linkedin: rtravis89
+geometry: "left=3cm,right=3cm,top=1cm,bottom=1cm"
+fontsize: 10pt
 date: "`r format(Sys.time(), '%B %Y')`"
-output: function(...) vitae::moderncv(..., theme = "banking")
+output: function(...) vitae::awesomecv(...)
 ---
 ```{r setup, include=FALSE}
 library(tidyverse)
 library(vitae)
 knitr::opts_chunk$set(echo = FALSE)
 ```
-
-<!-- # Professional Goal -->
-
-<!-- GOAL TEXT WOULD GO HERE -->
-
-# Skills
-
-## Data Science
-
-* Experimental Design, Exploratory Analysis, Generalized Linear Models, Hierarchical/Mixed Effect Models,
-  Machine Learning, R, Python, SQL, SAS (Base 9 Certified)
-
 # Experience
 ```{r, message=FALSE}
+#Swapped what and with because I like the formating better reversed
 read_csv("~\\resume\\data\\experience.csv") %>%
-  detailed_entries(what = role, when = dates, with = company, where = loc, why = details)
+  detailed_entries(what = company, when = dates, with = role, where = loc, why = details) %>%
+  filter(!grepl('Technomics Inc.', what)) %>%
+  filter(!grepl('IBM', what))
 ```
-
-
 # Education
 ```{r, message=FALSE}
 read_csv("~\\resume\\data\\education.csv") %>% 
   detailed_entries(degree, dates, uni, loc, details)
 ```
-
 # Publications
-
 ```{r, message=FALSE}
 # bibliography_entries("~\\resume\\data\\publications.bib")
 tribble(
  ~title, ~when,~role,~details,
-  "Machine learning versus traditional risk stratification methods in acute coronary syndrome","2019","Lead Statistician","Gibson, W.J., Nafee, T., Travis, R. et al. J Thromb Thrombolysis (2019). https://doi.org/10.1007/s11239-019-01940-8",
+  "Machine Learning for Prediction of VTE in Acutely Ill Patients","2020","Lead Statistician","https://doi.org/10.1002/rth2.12292",
  
- "Machine Learning for Prediction of Venous Thromboembolism in Acutely Ill Patients at High Risk of Venous Thromboembolism","Accepted","Gibson, C.M., Nafee, T., Travis, R. et al. Research and Practice in Thrombosis and Haemostasis (2019)",""
+  "Machine learning versus traditional risk stratification methods in ACS","2019","Lead Statistician", "https://doi.org/10.1007/s11239-019-01940-8"
 ) %>%
   brief_entries(glue::glue("\\textbf{<title>}: <role> \\newline <details>", .open = "<", .close = ">"), when, .protect = FALSE)
 ```
-
+# Skills
+R, Python, SQL, git, SAS, Experimental Design, Randomized Control Trials, Regression Modeling, Supervised Learning, Exploratory Analysis, Data Visualization, Causal Inference, Bayesian Methods
