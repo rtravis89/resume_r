@@ -24,7 +24,8 @@ knitr::opts_chunk$set(echo = FALSE)
 read_csv("~\\resume\\data\\experience.csv") %>%
   detailed_entries(what = company, when = dates, with = role, where = loc, why = details) %>%
   filter(!grepl('Technomics Inc.', what)) %>%
-  filter(!grepl('IBM', what))
+  filter(!grepl('IBM', what)) %>%
+  filter(!grepl('Evolent Health', what))
 ```
 # Education
 ```{r, message=FALSE}
