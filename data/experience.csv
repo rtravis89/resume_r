@@ -1,21 +1,21 @@
 role,company,loc,dates,details
-Data Scientist,Alarm.com,"Tyson’s Corner, VA",Mar. 2020 - Present,Gathered requirements from internal stakeholders and presented analysis results.
-Data Scientist,Alarm.com,"Tyson’s Corner, VA",Mar. 2020 - Present,"Built advanced SQL data pipelines involving window functions, CTEs, and aggregate functions."
-Data Scientist,Alarm.com,"Tyson’s Corner, VA",Mar. 2020 - Present,Analyzed in-app ad offers to measure effectiveness and provide recommendations for improvement.
-Data Scientist,Alarm.com,"Tyson’s Corner, VA",Mar. 2020 - Present,"Created machine learning models (logistic regression, GBM, etc.) to optimize targeting for marketing ads. Wrote SQL production code to implement logistic regression models. "
-Data Scientist,Alarm.com,"Tyson’s Corner, VA",Mar. 2020 - Present,Performed analysis to determine drivers of user engagement for specific business segments.
-Data Scientist,Alarm.com,"Tyson’s Corner, VA",Mar. 2020 - Present,"Provided ad hoc analyses, reporting, and dashboards across the Alarm.com business. "
-Data Analyst,Point Right Inc.,"Cambridge, MA",Sept. 2018 - Mar. 2020,Created machine learning models for the prediction of injurious falls and pressure ulcers among nursing home residents.
-Data Analyst,Point Right Inc.,"Cambridge, MA",Sept. 2018 - Mar. 2020,Assisted operations in the deployment of models into production.
-Data Analyst,Point Right Inc.,"Cambridge, MA",Sept. 2018 - Mar. 2020,Transitioned legacy SAS code base to modern R code saving the company thousands in licensing fees.
-Data Analyst,Point Right Inc.,"Cambridge, MA",Sept. 2018 - Mar. 2020,Fully automated reports and dashboards allowing for a large increase in the scale of production (from dozens to hundreds of reports or more) and a total reduction in delivery time of several days.
-Data Analyst,Point Right Inc.,"Cambridge, MA",Sept. 2018 - Mar. 2020,"Performed analysis of business decisions and presented results to stake holders, including the CEO, company leadership, and members  of the board"
-Data Analyst,Point Right Inc.,"Cambridge, MA",Sept. 2018 - Mar. 2020,Trained new hires in team coding standards and version control (git).
-Biostatistician,Beth Israel Deaconess Medical Center,"Boston, MA",June 2017 - Sept. 2018,Served as lead statistician for two machine learning research projects that resulted in publications.
-Biostatistician,Beth Israel Deaconess Medical Center,"Boston, MA",June 2017 - Sept. 2018,"Provided advanced statistical analysis of complex clinical trial data (phase II and phase III), which includes hierarchical and longitudinal data structures. Typical models included generalized linear models as well as time to event survival models."
-Biostatistician,Beth Israel Deaconess Medical Center,"Boston, MA",June 2017 - Sept. 2018,Provided statistical consulting to medical researchers.
-Data Analyst,Evolent Health,"Arlington, VA",Feb. 2017 - June 2017,"Cleaned, combined, and then analyzed diagnosis, prescription drug, and medical data. Data retrieval and analysis involved writing Microsoft SQL Server queries and then analyzing the data with R and/or Python. Analysis consisted of descriptive statistics and regression models. "
-Data Analyst,Evolent Health,"Arlington, VA",Feb. 2017 - June 2017,"Produced visualizations, primarily with the R package ggplot2, to assist in explanation and interpretation of analysis results. "
-Senior Analytics Consultant,IBM,"Springfield, VA",Aug. 2015 - Feb. 2017,Served as a U.S. government analytics consultant working on a survey sampling project for the USPS.
-Senior Associate Cost Analyst,Technomics Inc.,"Washington, D.C.",Sept. 2014 - Aug. 2015,Provided front-end requirements generation and system design for DOD database and integrated web application CADE (Cost Assessment Data Enterprise).
-Senior Associate Cost Analyst,Technomics Inc.,"Washington, D.C.",Sept. 2014 - Aug. 2015,Led team development testing efforts for the CADE project and provided testing results to management and developers.
+Senior Data Analyst, Toast Inc.,"Boston, MA",Jun. 2024 - Present, "Stuff"
+Product Data Scientist,Bumble Inc.,"Boston, MA",Jan. 2022 - Jun. 2024,"Led the design and implementation of a complete rebuild of the A/B testing data pipeline, resulting in improved accuracy of test results and up to a 50% reduction in experiment analysis time."  
+Product Data Scientist,Bumble Inc.,"Boston, MA",Jan. 2022 - Jun. 2024,"Presented analysis results and best practices at Bumble analytics forums. Mentored 5+ junior analysts to improve their technical skills and understanding of experimentation." 
+Product Data Scientist,Bumble Inc.,"Boston, MA",Jan. 2022 - Jun. 2024,"Collaborated with PMs, designers, and engineers to deliver insights and launch high impact features like the ‘Premium+ subscription’ offering and the ‘Spotify Common Artist Banner’." 
+Product Data Scientist,Bumble Inc.,"Boston, MA",Jan. 2022 - Jun. 2024,"Created tracking specs, designed and analyzed experiments, and provided analytical support and insights for quarterly product roadmaps." 
+Data Scientist,Alarm.com,"Tyson’s Corner, VA",Mar. 2020 - Jan. 2022,"Partnered with internal stakeholders to gather requirements, deliver data analysis, and dashboards, influencing product and marketing strategies."
+Data Scientist,Alarm.com,"Tyson’s Corner, VA",Mar. 2020 - Jan. 2022,"Built advanced SQL data pipelines leveraging window functions, CTEs, and aggregate functions, improving data processing accuracy and efficiency for complex reporting needs."
+Data Scientist,Alarm.com,"Tyson’s Corner, VA",Mar. 2020 - Jan. 2022,"Analyzed in-app ad offers to measure effectiveness and provide recommendations for improvement."
+Data Scientist,Alarm.com,"Tyson’s Corner, VA",Mar. 2020 - Jan. 2022,"Created machine learning models (logistic regression, GBM, etc.) to optimize targeting for marketing ads. Wrote SQL production code to implement logistic regression models."
+Data Scientist,Alarm.com,"Tyson’s Corner, VA",Mar. 2020 - Jan. 2022,"Developed machine learning models (logistic regression, GBM) to refine ad targeting strategies, ensuring more effective audience segmentation. Deployed models via SQL to streamline production integration."
+Data Scientist,Alarm.com,"Tyson’s Corner, VA",Mar. 2020 - Jan. 2022,"Built customer lifetime value models (Discrete Time and Cox survival models) of commercial customers to inform future product development." 
+Data Analyst,Point Right Inc.,"Cambridge, MA",Sept. 2018 - Mar. 2020,"Developed machine learning models for predicting injurious falls and pressure ulcers among nursing home residents, supporting data-driven decision-making in healthcare management."
+Data Analyst,Point Right Inc.,"Cambridge, MA",Sept. 2018 - Mar. 2020,"Led the transition from a legacy SAS codebase to R and Python, significantly reducing licensing costs and modernizing the company's analytics capabilities. This change saved the company tens of thousands of dollars annually."
+Data Analyst,Point Right Inc.,"Cambridge, MA",Sept. 2018 - Mar. 2020,"Automated reporting and dashboard production, increasing report generation from dozens to hundreds, and cutting delivery time from several days to a matter of hours, enabling the company to scale operations and make faster, more informed decisions."
+
+
+Data Analyst,Point Right Inc.,"Cambridge, MA",Sept. 2018 - Mar. 2020,"Provided in-depth business decision analyses and presented actionable insights to C-level executives, including the CEO, leadership team, and board members, influencing high-level business strategy."
+Biostatistician,Beth Israel Deaconess Medical Center,"Boston, MA",June 2017 - Sept. 2018, "Led statistical analysis for two machine learning research projects, which resulted in peer-reviewed publications, contributing to advancements in Cardiology." 
+Biostatistician,Beth Israel Deaconess Medical Center,"Boston, MA",June 2017 - Sept. 2018,"Conducted advanced statistical analysis of complex phase II and phase III clinical trial data, including hierarchical and longitudinal data structures. Applied models such as generalized linear models (GLMs) and time-to-event survival analysis, driving key insights for trial outcomes."
+

@@ -2,13 +2,13 @@
 name: Ryan
 surname: Travis
 position: "Data Scientist"
-address: "Alexandria, VA 22314"
+address: "Roslindale, MA 02131"
 phone: 304 282 8684
-www: ryantravis.netlify.com/about/
+#www: ryantravis.netlify.com/about/
 email: "rtravis89@gmail.com"
 github: rtravis89
 linkedin: rtravis89
-geometry: "left=3cm,right=3cm,top=1cm,bottom=1cm"
+#geometry: "left=3cm,right=3cm,top=3cm,bottom=3cm"
 fontsize: 10pt
 date: "`r format(Sys.time(), '%B %Y')`"
 output: function(...) vitae::awesomecv(...)
@@ -19,9 +19,9 @@ library(vitae)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 # Experience
-```{r, message=FALSE}
-#Swapped what and with because I like the formating better reversed
-read_csv("~\\resume\\data\\experience.csv") %>%
+```{r, message=FALSE, warning = FALSE}
+#Swapped what and with because I like the formatting better reversed
+read_csv("..\\data\\experience.csv") %>%
   detailed_entries(what = company, when = dates, with = role, where = loc, why = details) %>%
   filter(!grepl('Technomics Inc.', what)) %>%
   filter(!grepl('IBM', what)) %>%
@@ -29,12 +29,12 @@ read_csv("~\\resume\\data\\experience.csv") %>%
 ```
 # Education
 ```{r, message=FALSE}
-read_csv("~\\resume\\data\\education.csv") %>% 
+read_csv("..\\data\\education.csv") %>% 
   detailed_entries(degree, dates, uni, loc, details)
 ```
 # Publications
 ```{r, message=FALSE}
-# bibliography_entries("~\\resume\\data\\publications.bib")
+# bibliography_entries("..\\data\\publications.bib")
 tribble(
  ~title, ~when,~role,~details,
   "Machine Learning for Prediction of VTE in Acutely Ill Patients","2020","Lead Statistician","https://doi.org/10.1002/rth2.12292",
@@ -43,5 +43,5 @@ tribble(
 ) %>%
   brief_entries(glue::glue("\\textbf{<title>}: <role> \\newline <details>", .open = "<", .close = ">"), when, .protect = FALSE)
 ```
-# Skills
-R, Python, SQL, git, SAS, Experimental Design, Randomized Control Trials, Regression Modeling, Supervised Learning, Exploratory Analysis, Data Visualization, Causal Inference, Bayesian Methods
+<!-- # Skills -->
+<!-- R, Python, SQL, git, SAS, Experimental Design, Randomized Control Trials, Regression Modeling, Supervised Learning, Exploratory Analysis, Data Visualization, Causal Inference, Bayesian Methods -->
